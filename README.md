@@ -1,12 +1,54 @@
-# React + Vite
+# 🎨 Color Bet Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive color betting game built using **React.js** and **Tailwind CSS**.  
+Players stake coins on Red, Green, or Blue — and at the end of each round, one color randomly wins!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 Color selection (Red, Green, Blue)
+- 💰 Stake selection system
+- ⏱ 2-minute countdown timer
+- 🥇 Random winner selection logic
+- 🧾 Round-wise game history tracking
+- 📱 Fully mobile responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔗 Live Demo
+
+[👉 Click to Play the Game](https://your-netlify-link.netlify.app)
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- Tailwind CSS
+- React Router DOM
+- Vite
+
+---
+
+## 📸 Screenshots
+
+_Add your game screenshots here if available_
+
+---
+
+## 📚 How to Play
+
+1. Choose a color: Red, Green, or Blue  
+2. Select the coin amount to stake  
+3. Wait for the 2-minute countdown  
+4. If the selected color matches the winner, you win! 🎉  
+5. Otherwise, you lose — and try again in the next round
+
+---
+
+## 🧑‍💻 Author
+
+Made with 💙 by [Neha Kashyap](https://www.linkedin.com/in/neha-kashyap-999930275)
+
+---

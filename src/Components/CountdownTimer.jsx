@@ -8,7 +8,6 @@ const CountdownTimer = ({onTimeEnd}) => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
           clearInterval(timerRef.current);
-          onTimeEnd();
           return 0;
         }
         return prev - 1;
@@ -16,6 +15,12 @@ const CountdownTimer = ({onTimeEnd}) => {
     }, 1000);
     return () => clearInterval(timerRef.current);
   }, []);
+
+   useEffect(() =>{
+    if(timeLeft ===0){
+      onTimeEnd()
+    }
+   },[timeLeft, onTimeEnd])
   const minutes = Math.floor(timeLeft / 60)
     .toString()
     .padStart("2, 0");

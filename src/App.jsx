@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<GamePage />} />
+        <Route path="/" element={<GamePage gameHistory={gameHistory} setGameHistory={setGameHistory} />} />
         <Route path="/how-to-play" element={<HowToPlay/>} />
         <Route path="/history" element={<HistoryPage gameHistory={gameHistory}/>} />
       </Routes>
