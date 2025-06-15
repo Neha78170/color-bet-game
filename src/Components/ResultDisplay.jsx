@@ -6,7 +6,7 @@ const ResultDisplay = ({ selectedColor, winnerColor, stake })=>{
   return (
     <div
       className={`p-4 rounded text-center shadow-md ${
-        iswin ? "*:bg-green-100" : "bg-red-100"
+        iswin ? "*:bg-green-500" : "bg-red-500"
       }`}
     >
       <h3 className="text-xl text-semibold mb-2">

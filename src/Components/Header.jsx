@@ -7,17 +7,17 @@ function Header() {
 
   return (
     <header className="bg-gray-900 text-white fixed top-0 left-0 w-full z-50 shadow-md">
-      <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
+      <div className="max-w-[100rem] mx-auto flex justify-between items-center px-4 py-3">
         {/* Logo */}
-        <Link to="/" className="text-xl font-bold">
+        <Link to="/" className="text-2xl font-bold">
           🎮 StakePlay
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex md:space-x-6">
-          <Link to="/" className="hover:text-yellow-400">Game</Link>
-          <Link to="/history" className="hover:text-yellow-400">History</Link>
-          <Link to="/how-to-play" className="hover:text-yellow-400">How to Play</Link>
+          <Link to="/" className= "hover:text-yellow-400 text-xl">Game</Link>
+          <Link to="/history" className="hover:text-yellow-400 text-xl">History</Link>
+          <Link to="/how-to-play" className="hover:text-yellow-400 text-xl">How to Play</Link>
         </nav>
 
         {/* Mobile Menu Toggle */}

@@ -1,6 +1,6 @@
 function HowToPlay() {
   return (
-    <div className="min-h-screen bg-gradient-to-tr from-white via-gray-100 to-white p-4 md:p-6 max-w-3xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-tr from-white via-gray-100 to-white p-4 md:p-6 max-w-3xl mx-auto mt-10">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">🎮 How to Play</h2>
 
       <div className="space-y-4 text-base md:text-lg text-gray-700">

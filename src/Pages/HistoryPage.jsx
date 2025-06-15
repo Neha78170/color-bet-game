@@ -1,6 +1,6 @@
 function HistoryPage({ gameHistory }) {
   return (
-    <div className="min-h-screen p-4 md:p-8 bg-gray-100 text-gray-800">
+    <div className="min-h-screen p-4 md:p-8 bg-gray-100 text-gray-800 mt-10">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">📜 Game History</h2>
 
       {gameHistory.length === 0 ? (
