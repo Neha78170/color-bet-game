@@ -18,7 +18,7 @@ Players stake coins on Red, Green, or Blue — and at the end of each round, one
 
 ## 🔗 Live Demo
 
-[👉 Click to Play the Game](https://your-netlify-link.netlify.app)
+[👉 Click to Play the Game](https://color-bet-game.netlify.app/)
 
 ---
 
@@ -29,11 +29,6 @@ Players stake coins on Red, Green, or Blue — and at the end of each round, one
 - React Router DOM
 - Vite
 
----
-
-## 📸 Screenshots
-
-_Add your game screenshots here if available_
 
 ---
 
